@@ -1,115 +1,151 @@
 [[battery_cli]]
 arch = "aarch64"
-git-tree-sha1 = "a47d8fb5d6cf52b1d02fd6ef319dbbe78848a843"
-libc = "glibc"
-os = "linux"
-
-    [[battery_cli.download]]
-    sha256 = "2e74477b3878ac190062c314123f6a99ae9b9e5db9a352df80352d608b2e5867"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.aarch64-linux-gnu.tar.gz"
-[[battery_cli]]
-arch = "aarch64"
-git-tree-sha1 = "fd29160be4a388c3eed45b0867fb5b2fc43ea1ca"
-libc = "musl"
-os = "linux"
-
-    [[battery_cli.download]]
-    sha256 = "3479697e248e270be3060ac7e3acce7ca32ff0a518bd8f3d574e8141c4a3ba0c"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.aarch64-linux-musl.tar.gz"
-[[battery_cli]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "e81b480c7fa54b0a1e610415c7345883bcc9f773"
-libc = "glibc"
-os = "linux"
-
-    [[battery_cli.download]]
-    sha256 = "b1ee83d7be298304d9c088211441b283e89cdc42ce6f3282dbad5ed685e7a421"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.armv7l-linux-gnueabihf.tar.gz"
-[[battery_cli]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "db1eabead450df5afa360bd11886388320ca4e9f"
-libc = "musl"
-os = "linux"
-
-    [[battery_cli.download]]
-    sha256 = "4029dcd27e3e5152ed2f1611da392fb65f8bba45023a085f7205cb4498e2555c"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.armv7l-linux-musleabihf.tar.gz"
-[[battery_cli]]
-arch = "i686"
-git-tree-sha1 = "b4c6ba953f2937fbce1e6a1a86a9a37706337771"
-libc = "glibc"
-os = "linux"
-
-    [[battery_cli.download]]
-    sha256 = "e0a962e1cb76a4eea1223f19e6661d41dc7077e7d14caad0a070fcde97dc8b3b"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.i686-linux-gnu.tar.gz"
-[[battery_cli]]
-arch = "i686"
-git-tree-sha1 = "e9b261de017918d91369b26deaa3c7735e2cb5a3"
-libc = "musl"
-os = "linux"
-
-    [[battery_cli.download]]
-    sha256 = "966c495cba2cd7415341acc9bef7795ac95e4cfff721f33b489fa03af4f6998a"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.i686-linux-musl.tar.gz"
-[[battery_cli]]
-arch = "i686"
-git-tree-sha1 = "b5c2e4b8816c7f7a219ae1c292f32e56914a77bb"
-os = "windows"
-
-    [[battery_cli.download]]
-    sha256 = "205ffda1af671815550bf07190b0380bd518f3a631aac2bf06e271b6a762c9c2"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.i686-w64-mingw32.tar.gz"
-[[battery_cli]]
-arch = "powerpc64le"
-git-tree-sha1 = "e824865e71b1047d5d2ee7bcae8f319017dd8e78"
-libc = "glibc"
-os = "linux"
-
-    [[battery_cli.download]]
-    sha256 = "b545937b37f67ccd83d896167bad6e17ca7d5bdf21c07960dc4d0acf4674c7e9"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.powerpc64le-linux-gnu.tar.gz"
-[[battery_cli]]
-arch = "x86_64"
-git-tree-sha1 = "edf9ed404fe84a554f5db850a000af7b1438c0d6"
+git-tree-sha1 = "324ac944553cfb8201cba83b2028874e21ea1b17"
 os = "macos"
 
     [[battery_cli.download]]
-    sha256 = "2d368d6096c02614367528e484e22a00ea59c182ed4a07477a2d6ccfe75d49e4"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "b391dc787556ea6e8d823a02e4e70353cc120bd4f38ce6ceea69e3e1ce1a9dce"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.aarch64-apple-darwin.tar.gz"
 [[battery_cli]]
-arch = "x86_64"
-git-tree-sha1 = "869f7769a40a7a1a97ae9ed0486c7ad560f2da4b"
+arch = "aarch64"
+git-tree-sha1 = "10684b16e67d5376085c5622bcd506052a3d1a38"
 libc = "glibc"
 os = "linux"
 
     [[battery_cli.download]]
-    sha256 = "a7e4dabb4f739e478554542ae1cd617d18cfd09d95e7958c90030058937aa384"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "712adda3877471f52781effc80ff5028c1274af21bf20ce1f1e7e54ef924d736"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.aarch64-linux-gnu.tar.gz"
 [[battery_cli]]
-arch = "x86_64"
-git-tree-sha1 = "44ce25b7f4118ef038cf538a2c32086964c61f7f"
+arch = "aarch64"
+git-tree-sha1 = "10684b16e67d5376085c5622bcd506052a3d1a38"
 libc = "musl"
 os = "linux"
 
     [[battery_cli.download]]
-    sha256 = "dfe1ebe2652219201e3a7aecd3c2453c966a312acd3212243403e98b159dd957"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.x86_64-linux-musl.tar.gz"
+    sha256 = "712adda3877471f52781effc80ff5028c1274af21bf20ce1f1e7e54ef924d736"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.aarch64-linux-musl.tar.gz"
 [[battery_cli]]
-arch = "x86_64"
-git-tree-sha1 = "a9b35a787ad09ea8d77147da07c0273ed26f3794"
+arch = "aarch64"
+git-tree-sha1 = "4eb9687894c5701540748dc66bfa78e4db7e3350"
 os = "freebsd"
 
     [[battery_cli.download]]
-    sha256 = "1f509c780c0c0113a4da74dc47d1f5cce560a80a3530fa62a70a9b8f17e11580"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "21769a7c7aeb643d5631f44709f21888e2f935f3c130b221d8e5a952333a6863"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.aarch64-unknown-freebsd.tar.gz"
 [[battery_cli]]
-arch = "x86_64"
-git-tree-sha1 = "cd8af15a5119b7d5b37898063ed6faebbf22b0dd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "5d8d7971b26cead405d5010e4b5b5f27c98b1841"
+libc = "glibc"
+os = "linux"
+
+    [[battery_cli.download]]
+    sha256 = "db7b695164c0d6b31b83126f5a09c4f95d904e7adbf212ad1d9ea282ed7ccad1"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.armv6l-linux-gnueabihf.tar.gz"
+[[battery_cli]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "5d8d7971b26cead405d5010e4b5b5f27c98b1841"
+libc = "musl"
+os = "linux"
+
+    [[battery_cli.download]]
+    sha256 = "db7b695164c0d6b31b83126f5a09c4f95d904e7adbf212ad1d9ea282ed7ccad1"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.armv6l-linux-musleabihf.tar.gz"
+[[battery_cli]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "97732974fe04a30f5f40bf8bed6652969cc66801"
+libc = "glibc"
+os = "linux"
+
+    [[battery_cli.download]]
+    sha256 = "29250ce8386a104776298fccbad3a28a9c929a87db5b392b12af7f44d670ad7e"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.armv7l-linux-gnueabihf.tar.gz"
+[[battery_cli]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "97732974fe04a30f5f40bf8bed6652969cc66801"
+libc = "musl"
+os = "linux"
+
+    [[battery_cli.download]]
+    sha256 = "29250ce8386a104776298fccbad3a28a9c929a87db5b392b12af7f44d670ad7e"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.armv7l-linux-musleabihf.tar.gz"
+[[battery_cli]]
+arch = "i686"
+git-tree-sha1 = "df8e51e445608d9c4722ed72ac5444b0491fa39c"
+libc = "glibc"
+os = "linux"
+
+    [[battery_cli.download]]
+    sha256 = "9483a999317530de950c1e2cd079bf9c2a06f1b428e433dee022a5493af7e858"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.i686-linux-gnu.tar.gz"
+[[battery_cli]]
+arch = "i686"
+git-tree-sha1 = "df8e51e445608d9c4722ed72ac5444b0491fa39c"
+libc = "musl"
+os = "linux"
+
+    [[battery_cli.download]]
+    sha256 = "9483a999317530de950c1e2cd079bf9c2a06f1b428e433dee022a5493af7e858"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.i686-linux-musl.tar.gz"
+[[battery_cli]]
+arch = "i686"
+git-tree-sha1 = "e1a2280f0fe8d0f068231eea017ea4cc94dac5fd"
 os = "windows"
 
     [[battery_cli.download]]
-    sha256 = "30c92870ace81b606a47bb6b03cec3297e4544f861a86bc019299d69014991e3"
-    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.10.0+0/battery_cli.v0.10.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "e9fc120eacb18915ac74b92726cdc41a5ddc505e99a662cc4fd033b94e983196"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.i686-w64-mingw32.tar.gz"
+[[battery_cli]]
+arch = "powerpc64le"
+git-tree-sha1 = "ad6f7bf4bbf6f60dcb4d086eee771c33f2f8fa53"
+libc = "glibc"
+os = "linux"
+
+    [[battery_cli.download]]
+    sha256 = "bed2c297a2b78e7f803d511831488571e8c2f20f2bf76c748da4f8d51d833081"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.powerpc64le-linux-gnu.tar.gz"
+[[battery_cli]]
+arch = "x86_64"
+git-tree-sha1 = "38dbf49412ff1079cf00a90ad6efbc5bdd83e361"
+os = "macos"
+
+    [[battery_cli.download]]
+    sha256 = "e2d6d4ea6b114448d02c58cb264584be9d94e3b883f57678be32dfdfd490cdb6"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.x86_64-apple-darwin.tar.gz"
+[[battery_cli]]
+arch = "x86_64"
+git-tree-sha1 = "7a97303905bbb99501af73e17a3c7422c9fb5202"
+libc = "glibc"
+os = "linux"
+
+    [[battery_cli.download]]
+    sha256 = "18999af22cb805f2c4fea034effae25f4405a80b50b17682958a01b00556e35d"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.x86_64-linux-gnu.tar.gz"
+[[battery_cli]]
+arch = "x86_64"
+git-tree-sha1 = "7a97303905bbb99501af73e17a3c7422c9fb5202"
+libc = "musl"
+os = "linux"
+
+    [[battery_cli.download]]
+    sha256 = "18999af22cb805f2c4fea034effae25f4405a80b50b17682958a01b00556e35d"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.x86_64-linux-musl.tar.gz"
+[[battery_cli]]
+arch = "x86_64"
+git-tree-sha1 = "870bdc32d648cdadabd7116316b10c21c8a90fe2"
+os = "freebsd"
+
+    [[battery_cli.download]]
+    sha256 = "6b30f0f1ca607e3f13cb970dc48fe613f75ba42151cde980b7bddff1f776f7a8"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.x86_64-unknown-freebsd.tar.gz"
+[[battery_cli]]
+arch = "x86_64"
+git-tree-sha1 = "008b2cf822b5e39281fa492722cb76d7f149e88d"
+os = "windows"
+
+    [[battery_cli.download]]
+    sha256 = "737534729bb22846e154a278e0e72c62b05a0b4e640e5adeff3d367574e6feec"
+    url = "https://github.com/JuliaBinaryWrappers/battery_cli_jll.jl/releases/download/battery_cli-v0.11.0+0/battery_cli.v0.11.0.x86_64-w64-mingw32.tar.gz"
